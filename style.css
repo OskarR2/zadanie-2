@@ -1,0 +1,61 @@
+body
+{
+    background-color: #363030;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+#gora
+{
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+#gora h3
+{
+    text-align: center;
+    size: 20px;
+    letter-spacing: 2px;
+    width: 100%; 
+    height: 100%;
+    color: red;
+    animation-name: tytul;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes tytul 
+{
+    0%   {color:red; }
+    25%  {color:yellow; }
+    50%  {color:blue; }
+    75%  {color:green; }
+    100% {color:red; }
+  }
+#lewy
+{
+    float: left;
+    width: 50%;
+    height: 60%;
+}
+#lewy img
+{
+    width: 100%;
+    height: 100%;
+}
+#prawy
+{
+    float: left;
+    width: 50%;
+    height: 60%;
+}
+#stopka
+{
+    text-align: center;
+    background-color: #433D3D;
+    clear: both;
+    size: 20px;
+}
+#stopka img
+{
+    width: 32px;
+    height: 32px;
+}
